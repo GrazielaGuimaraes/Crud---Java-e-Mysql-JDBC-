@@ -51,7 +51,7 @@ public class Controlador {
             
             
         } catch (SQLException ex) {
-            System.out.println("Erro ao deletar"); 
+            System.out.println("Erro ao listar"); 
     }
         
         return usuarios;
