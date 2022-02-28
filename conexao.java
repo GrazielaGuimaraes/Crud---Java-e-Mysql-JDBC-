@@ -13,7 +13,7 @@ public class Conexao_BancoMysql {
     private static final String USUARIO = "seu_usuario_no_mysql";
     private static final String SENHA = "sua_senha_no_mysql";
     private static final String DRIVER = "com.mysql.jdbc.Driver";
-    private static final String URL = "jdbc:mysql//localhost:suaPorta/nomeSeuBancoMysql";
+    private static final String URL = "jdbc:mysql://localhost:suaPorta/nomeSeuBancoMysql";
     
     
     public Connection conectar() throws SQLException{
